@@ -1,0 +1,72 @@
+@import-normalize;
+@import "font.css";
+@import "buttons.css";
+@import "recipe-list.css";
+@import "recipe.css";
+@import "ingredient-list.css";
+@import "ingredient.css";
+@import "recipe-edit.css";
+
+*, *::before, *::after{
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 25px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.mr-1{
+    margin-right: 5px;
+}
+
+.spinner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    widht: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212738;
+}
+.spinner img{
+    width: 200px;
+}
+
+.mainAppView{
+    min-height: 100vh;
+    background: #212738;
+}
+.sideBar{
+    background: #212738;
+    color: #ffffff;
+    padding: 20px 30px;
+    border-bottom: 3px solid #D1CCDC;
+}
+.sideBar h1{
+    margin-top: 0;
+}
+.sideBar nav{
+    padding-bottom: 10px;
+}
+.sideBar nav a{
+    color: #fff!important;
+}
+.childAppView{
+    position: relative;
+}
+.profileView{
+    color: #fff;
+    padding: 50px;
+    overflow: hidden;
+}
+.homeView{
+    color: #fff;
+    padding: 50px;
+}

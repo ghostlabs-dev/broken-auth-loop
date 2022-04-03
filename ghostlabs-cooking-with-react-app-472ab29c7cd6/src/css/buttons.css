@@ -1,0 +1,50 @@
+.btn{
+    font-size: inherit;
+    background: none;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.btn--primary{
+    color: #fff;
+    background: #0081A7;
+}
+
+.btn--primary:hover{
+    background: #00BCF5;
+}
+
+.btn--special{
+    background: #82D173;
+    color: #fff;
+}
+.btn--special:hover{
+    background: #69C856;
+}
+
+
+.btn--danger{
+    color: #fff;
+    background: #F97068;
+}
+
+.btn--danger:hover{
+    background: #F63228;
+}
+
+.navbar-nav.ml-auto.auth--btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.edit-button{
+    float: right;
+    margin-top: 30px;
+}

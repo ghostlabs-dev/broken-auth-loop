@@ -1,0 +1,16 @@
+.recipe-list{
+    width: 100%;
+    /*border-right: 1px solid #000;*/
+    height: 100%;
+}
+.recipes-container{
+    width: 100%;
+    /*border-right: 1px solid #000;*/
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipe-list__add-recipe-btn-container{
+   text-align: center;
+    padding: 2rem 0;
+}

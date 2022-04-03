@@ -1,0 +1,71 @@
+.recipe{
+    padding: 20px;
+    padding-bottom: 80px;
+    width: calc(33% - 2rem);
+    margin: 1rem;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.3);
+    position: relative;
+    min-height: 300px;
+}
+@media only screen and (max-width: 1150px){
+    .recipe{
+        width: calc(50% - 2rem);
+    }
+}
+@media only screen and (max-width: 766px){
+    .recipe{
+        width: calc(100% - 2rem);
+    }
+}
+
+/*.recipe:last-child{*/
+/*    padding-bottom: 10px;*/
+/*    border-bottom: none;*/
+/*}*/
+
+.recipe__header{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.recipe__title{
+    margin: 0;
+    font-size: 25px;
+}
+
+.recipe__row{
+    margin-top: 10px;
+}
+
+.recipe__label{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+
+.recipe__value{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.recipe__value--indented{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.recipe__value--instructions{
+    white-space: pre-wrap;
+}
+.recipe__footer{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    left: 20px;
+}
